@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import { Switch, Route,Redirect} from 'react-router-dom'
+import { Switch, Route} from 'react-router-dom'
 import './assets/reset.less'
 
 import Login from "./pages/login";
@@ -10,8 +10,7 @@ export default class App extends  Component{
         return(
                 <Switch>
                     <Route path='/login' component={Login}/>
-                    <Route path='/admin' component={Admin}/>
-                    <Redirect to='/login' />
+                    <Route path='/' component={Admin}/>
                 </Switch>
         )
     }
