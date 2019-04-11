@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
 import { Card,Icon,Form,Input,Cascader,InputNumber,Button,message } from 'antd';
 
-import './save-update.less';
-import { reqGetCategories } from "../../api";
+import './index.less';
+import {reqGetCategories,reqUpdateProduct,reqAddProduct} from "../../../api";
 import RichTextEditor from './rich-text-editor';
+import PicturesWall from './pictures-wall'
 
 const Item = Form.Item;
 
@@ -32,21 +33,45 @@ class SaveUpdate extends Component{
     };
     onChange = (value) => {
 
-    }
+    };
     submit = (e)=>{
         e.preventDefault();
-        this.props.form.validateFields((err, values) => {
+        this.props.form.validateFields( async (err, values) => {
             if (!err) {
-                console.log(values);
-                console.log(this.richTextEditor.current.state.editorState.toHTML());
+                const { name,desc,price,category} = values;
+                const detail = this.richTextEditor.current.state.editorState.toHTML();
+                let pCategoryId,categoryId;
+                if ( category.length ===1) {
+                    pCategoryId = '0';
+                    categoryId = category[0];
+                } else {
+                    pCategoryId = category[0];
+                    categoryId = category[1];
+                }
+                const { location : { state }} = this.props;
+                let result = null;
+                let msg ='';
+                if (state) {
+                    result = await reqUpdateProduct({name, desc, price, pCategoryId, categoryId, detail, _id: state._id});
+                    msg = '修改商品成功'
+                } else {
+                    result = await reqAddProduct({name, desc, price, pCategoryId, categoryId, detail});
+                    msg = '添加商品成功';
+                }
+                if (result.status === 0) {
+                    message.success(msg);
+                    this.props.history.goBack();
+                } else {
+                    message.error(result.msg);
+                }
             }
         })
-    }
+    };
     loadData = (selectedOptions) =>{
         const targetOption = selectedOptions[selectedOptions.length - 1];
         targetOption.loading = true;
         this.getCategories(targetOption.value);
-    }
+    };
     getCategories = async (parentId) => {
         const result = await reqGetCategories(parentId);
         if (result.status ===0 ){
@@ -71,7 +96,6 @@ class SaveUpdate extends Component{
                                     value: item._id
                                 }
                             });
-                            // 去掉loading状态
                             option.loading = false;
                             option.isLeaf = true;
                         }
@@ -82,13 +106,23 @@ class SaveUpdate extends Component{
         } else{
             message.error(result.msg);
         }
-    }
+    };
     componentDidMount(){
         this.getCategories('0');
+        const { state } = this.props.location;
+        if (state){
+            const { pCategorgoryId, categoryId} = state;
+            if (pCategorgoryId ==='0'){
+                this.category = [categoryId]
+            } else{
+                this.getCategories(pCategorgoryId);
+                this.category = [pCategorgoryId,categoryId]
+            }
+        }
     }
     render() {
         const { options } = this.state;
-        const { getFieldDecorator } = this.props.form;
+        const {form: {getFieldDecorator}, location: { state } } = this.props;
 
         return (
             <Card
@@ -151,20 +185,23 @@ class SaveUpdate extends Component{
                             getFieldDecorator(
                                 'price',
                                 {
-                                    rules: [{required: true, message: '请输入商品价格'}]
+                                    rules: [{required: true, message: '请输入商品价格'}],
+                                    initialValue : state ? state.price : ''
                                 }
                             )(
                                 <InputNumber
                                     className="save-update-input-number"
-                                    // 每3位数字就有一个，并且开头￥
                                     formatter={value => `￥ ${value}`.replace(/\B(?=(\d{3})+(?!\d))/g, ',')}
-                                    // 去除非数字的内容
                                     parser={value => value.replace(/￥\s?|(,*)/g, '')}
-                                    // onChange={this.onChange}
                                 />
                             )
                         }
                     </Item>
+                    {
+                        state ? <Item label="商品图片">
+                            <PicturesWall _id={state._id} imgs={state.imgs}/>
+                        </Item> : null
+                    }
                     <Item
                         label="商品详情"
                         wrapperCol={{

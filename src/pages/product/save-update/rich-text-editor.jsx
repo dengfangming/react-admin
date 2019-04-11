@@ -1,27 +1,25 @@
 import React from 'react';
+import PropTypes from 'prop-types';
+
 import BraftEditor from 'braft-editor';
 import 'braft-editor/dist/index.css';
 
 export default class RichTextEditor extends React.Component {
-
-    state = {
-        editorState: BraftEditor.createEditorState(null)
+    static  propTypes = {
+        detail: PropTypes.string
     };
-
-    componentDidMount () {
-        const htmlContent = 'HELLO WORLD!!';
-
-        this.setState({
-            editorState: BraftEditor.createEditorState(htmlContent)
-        })
+    constructor(props){
+        super(props);
+        this.state = {
+            editorState: BraftEditor.createEditorState(this.props.detail)
+        };
     }
     handleEditorChange = (editorState) => {
         this.setState({ editorState })
     };
-
     render () {
 
-        const { editorState } = this.state;
+        const {editorState} = this.state;
 
         return (
             <div style={{border: '1px solid #d9d9d9', height: 300, borderRadius: 4}}>
@@ -31,7 +29,5 @@ export default class RichTextEditor extends React.Component {
                 />
             </div>
         )
-
     }
-
 }

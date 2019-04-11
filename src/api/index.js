@@ -28,3 +28,16 @@ export const reqAddCategory = (parentId, categoryName) => ajax(prefix + '/manage
 export const reqUpdateCategoryName = (categoryId, categoryName) => ajax(prefix + '/manage/category/update', {categoryId, categoryName}, 'POST');
 
 export const reqGetProducts = (pageNum, pageSize) => ajax(prefix + '/manage/product/list', { pageNum, pageSize });
+
+export const reqDelImage = (name, _id) => ajax(prefix + '/manage/img/delete', { name, _id },'POST');
+
+export const reqAddProduct = (product) => ajax(prefix + '/manage/product/add',product ,'POST');
+
+export const reqUpdateProduct = (product) => ajax(prefix + '/manage/product/update',product ,'POST');
+
+export const reqGetCategoryName = (categoryId) => ajax(prefix + '/manage/category/info', categoryId);
+
+export const reqUpdateStatus = (productId,status) => ajax(prefix + '/manage/product/updateStatus', { productId, status},'POST');
+
+export const reqSearch = (data) => ajax(prefix + '/manage/product/search', data);
+
