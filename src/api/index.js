@@ -39,5 +39,11 @@ export const reqGetCategoryName = (categoryId) => ajax(prefix + '/manage/categor
 
 export const reqUpdateStatus = (productId,status) => ajax(prefix + '/manage/product/updateStatus', { productId, status},'POST');
 
+export const reqRoleList = () => ajax(prefix + '/manage/role/list');
+
+export const reqAddRole = (name) => ajax(prefix + '/manage/role/add', { name},'POST');
+
+export const reqUpdateRole = (role) => ajax(prefix + '/manage/role/update', {role},'POST');
+
 export const reqSearch = (data) => ajax(prefix + '/manage/product/search', data);
 

@@ -1,20 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="afd5a697-4ad5-420f-8e9e-800dc8c3ad04" name="默认的" comment="实现商品管理中的添加商品功能">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/pages/product/index/index.jsx" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/pages/product/save-update/pictures-wall.jsx" />
+    <list default="true" id="afd5a697-4ad5-420f-8e9e-800dc8c3ad04" name="默认的" comment="完成商品管理模块">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/pages/role/add-role-form.jsx" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/pages/role/update-role-form.jsx" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/pages/user/add-user-form.jsx" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/pages/user/update-user-form.jsx" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
       <change beforePath="$PROJECT_DIR$/src/api/index.js" afterPath="$PROJECT_DIR$/src/api/index.js" />
-      <change beforePath="$PROJECT_DIR$/src/assets/reset.less" afterPath="$PROJECT_DIR$/src/assets/reset.less" />
-      <change beforePath="$PROJECT_DIR$/src/pages/admin/index.jsx" afterPath="$PROJECT_DIR$/src/pages/admin/index.jsx" />
-      <change beforePath="$PROJECT_DIR$/src/pages/product/detail.jsx" afterPath="$PROJECT_DIR$/src/pages/product/detail/index.jsx" />
-      <change beforePath="$PROJECT_DIR$/src/pages/product/index.jsx" afterPath="$PROJECT_DIR$/src/pages/product/index.jsx" />
-      <change beforePath="$PROJECT_DIR$/src/pages/product/index.less" afterPath="$PROJECT_DIR$/src/pages/product/index/index.less" />
-      <change beforePath="$PROJECT_DIR$/src/pages/product/products.jsx" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/pages/product/rich-text-editor.jsx" afterPath="$PROJECT_DIR$/src/pages/product/save-update/rich-text-editor.jsx" />
-      <change beforePath="$PROJECT_DIR$/src/pages/product/save-update.jsx" afterPath="$PROJECT_DIR$/src/pages/product/save-update/index.jsx" />
-      <change beforePath="$PROJECT_DIR$/src/pages/product/save-update.less" afterPath="$PROJECT_DIR$/src/pages/product/save-update/index.less" />
+      <change beforePath="$PROJECT_DIR$/src/pages/charts/bar.jsx" afterPath="$PROJECT_DIR$/src/pages/charts/bar.jsx" />
+      <change beforePath="$PROJECT_DIR$/src/pages/charts/line.jsx" afterPath="$PROJECT_DIR$/src/pages/charts/line.jsx" />
+      <change beforePath="$PROJECT_DIR$/src/pages/charts/pie.jsx" afterPath="$PROJECT_DIR$/src/pages/charts/pie.jsx" />
+      <change beforePath="$PROJECT_DIR$/src/pages/product/save-update/index.jsx" afterPath="$PROJECT_DIR$/src/pages/product/save-update/index.jsx" />
+      <change beforePath="$PROJECT_DIR$/src/pages/role/index.jsx" afterPath="$PROJECT_DIR$/src/pages/role/index.jsx" />
+      <change beforePath="$PROJECT_DIR$/src/pages/user/index.jsx" afterPath="$PROJECT_DIR$/src/pages/user/index.jsx" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" afterPath="$PROJECT_DIR$/yarn.lock" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -27,7 +28,28 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/api/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="548">
+              <caret line="37" column="101" lean-forward="true" selection-start-line="37" selection-start-column="101" selection-end-line="37" selection-end-column="101" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/role/index.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="6" column="45" lean-forward="false" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -57,10 +79,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/src/1.jsx" />
-        <option value="$PROJECT_DIR$/class1128-react-admin/src/pages/login/index.jsx" />
-        <option value="$PROJECT_DIR$/src/pages/admin/left-nav.less" />
         <option value="$PROJECT_DIR$/src/pages/admin/index.less" />
         <option value="$PROJECT_DIR$/src/pages/login/index.less" />
         <option value="$PROJECT_DIR$/src/index.js" />
@@ -69,9 +87,6 @@
         <option value="$PROJECT_DIR$/src/components/left-nav/index.jsx" />
         <option value="$PROJECT_DIR$/src/components/left-nav/index.less" />
         <option value="$PROJECT_DIR$/src/config/menu-config.js" />
-        <option value="$PROJECT_DIR$/src/pages/charts/pie.jsx" />
-        <option value="$PROJECT_DIR$/src/pages/charts/line.jsx" />
-        <option value="$PROJECT_DIR$/src/pages/charts/bar.jsx" />
         <option value="$PROJECT_DIR$/src/components/my-button/index.jsx.less" />
         <option value="$PROJECT_DIR$/src/components/my-button/index.less" />
         <option value="$PROJECT_DIR$/src/pages/home/index.jsx" />
@@ -82,8 +97,6 @@
         <option value="$PROJECT_DIR$/src/components/my-button/index.jsx" />
         <option value="$PROJECT_DIR$/src/api/ajax.js" />
         <option value="$PROJECT_DIR$/src/components/header-min/index.jsx" />
-        <option value="$PROJECT_DIR$/src/pages/user/index.jsx" />
-        <option value="$PROJECT_DIR$/src/pages/role/index.jsx" />
         <option value="$PROJECT_DIR$/src/pages/home/index.less" />
         <option value="$PROJECT_DIR$/src/pages/category/index.less" />
         <option value="$PROJECT_DIR$/src/components/header-min/index.less" />
@@ -103,11 +116,20 @@
         <option value="$PROJECT_DIR$/src/pages/product/save-update/pictures-wall.js" />
         <option value="$PROJECT_DIR$/src/pages/product/save-update/pictures-wall.jsx" />
         <option value="$PROJECT_DIR$/1.html" />
-        <option value="$PROJECT_DIR$/src/api/index.js" />
         <option value="$PROJECT_DIR$/src/pages/product/index/index.jsx" />
-        <option value="$PROJECT_DIR$/src/pages/product/save-update/index.jsx" />
         <option value="$PROJECT_DIR$/src/pages/product/save-update/rich-text-editor.jsx" />
         <option value="$PROJECT_DIR$/src/pages/product/detail/index.jsx" />
+        <option value="$PROJECT_DIR$/src/pages/user/add-user-form.jsx" />
+        <option value="$PROJECT_DIR$/src/pages/user/index.jsx" />
+        <option value="$PROJECT_DIR$/src/pages/user/update-user-form.jsx" />
+        <option value="$PROJECT_DIR$/src/pages/product/save-update/index.jsx" />
+        <option value="$PROJECT_DIR$/src/pages/charts/bar.jsx" />
+        <option value="$PROJECT_DIR$/src/pages/charts/line.jsx" />
+        <option value="$PROJECT_DIR$/src/pages/charts/pie.jsx" />
+        <option value="$PROJECT_DIR$/src/pages/role/add-role-form.jsx" />
+        <option value="$PROJECT_DIR$/src/pages/role/index.jsx" />
+        <option value="$PROJECT_DIR$/src/pages/role/update-role-form.jsx" />
+        <option value="$PROJECT_DIR$/src/api/index.js" />
       </list>
     </option>
   </component>
@@ -141,8 +163,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="213" />
-    <option name="y" value="95" />
+    <option name="x" value="396" />
+    <option name="y" value="55" />
     <option name="width" value="1497" />
     <option name="height" value="1031" />
   </component>
@@ -190,52 +212,7 @@
               <item name="react-admin" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="category" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-admin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="charts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-admin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="product" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-admin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="product" type="462c0819:PsiDirectoryNode" />
-              <item name="detail" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-admin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="product" type="462c0819:PsiDirectoryNode" />
-              <item name="index" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-admin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="product" type="462c0819:PsiDirectoryNode" />
-              <item name="save-update" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-admin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="role" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -268,19 +245,19 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\前端\We\react-admin\src\pages\product\save-update" />
-      <recent name="D:\前端\We\react-admin\src\pages\product\index" />
-      <recent name="D:\前端\We\react-admin\src\pages\product\detail" />
-      <recent name="D:\前端\We\react-admin\src\assets\images" />
-      <recent name="D:\前端\We\react-admin" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\前端\We\react-admin\src\pages\charts" />
       <recent name="D:\前端\We\react-admin\src\pages\product" />
       <recent name="D:\前端\We\react-admin\src\utils\storage-utils" />
       <recent name="D:\前端\We\react-admin" />
       <recent name="D:\前端\We\react-admin\src\pages\login" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\前端\We\react-admin\src\pages\product\save-update" />
+      <recent name="D:\前端\We\react-admin\src\pages\product\index" />
+      <recent name="D:\前端\We\react-admin\src\pages\product\detail" />
+      <recent name="D:\前端\We\react-admin\src\assets\images" />
+      <recent name="D:\前端\We\react-admin" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -321,7 +298,7 @@
       <workItem from="1554683300853" duration="42537000" />
       <workItem from="1554889189151" duration="2421000" />
       <workItem from="1554894098243" duration="59000" />
-      <workItem from="1554894945248" duration="13140000" />
+      <workItem from="1554894945248" duration="20813000" />
     </task>
     <task id="LOCAL-00001" summary="实现品类管理组件">
       <created>1554721863030</created>
@@ -337,11 +314,18 @@
       <option name="project" value="LOCAL" />
       <updated>1554777540393</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="完成商品管理模块">
+      <created>1554965013914</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1554965013914</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="137931000" />
+    <option name="totallyTimeSpent" value="145604000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -354,8 +338,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1115222" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17653278" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291592" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5056657" sideWeight="0.5006605" order="13" side_tool="true" content_ui="tabs" />
@@ -363,7 +348,7 @@
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30577576" sideWeight="0.4993395" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.4993395" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -412,7 +397,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="实现品类管理组件" />
     <MESSAGE value="实现商品管理中的添加商品功能" />
-    <option name="LAST_COMMIT_MESSAGE" value="实现商品管理中的添加商品功能" />
+    <MESSAGE value="完成商品管理模块" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成商品管理模块" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -421,34 +407,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/class1128-react-admin/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="7" column="24" lean-forward="true" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/class1128-react-admin/src/api/ajax.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-27">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/class1128-react-admin/src/pages/login/index.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="29" column="34" lean-forward="false" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../xpromise/class1128-react-admin/src/api/ajax.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="26" column="16" lean-forward="true" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/react/cjs/react.development.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="215">
@@ -466,27 +424,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/charts/index.jsx" />
-    <entry file="file://$PROJECT_DIR$/src/pages/charts/pie.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/charts/line.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="16" lean-forward="false" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/charts/bar.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="15" lean-forward="false" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/jsonp/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1311">
@@ -686,60 +623,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/role/index.jsx">
+    <entry file="file://$PROJECT_DIR$/src/pages/user/add-user-form.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="16" lean-forward="true" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/api/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="902">
-          <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+        <state relative-caret-position="324">
+          <caret line="53" column="26" lean-forward="true" selection-start-line="53" selection-start-column="26" selection-end-line="53" selection-end-column="26" />
           <folding>
-            <element signature="e#0#25#0" expanded="true" />
+            <element signature="e#0#41#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/product/index.jsx">
+    <entry file="file://$PROJECT_DIR$/src/pages/user/update-user-form.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        <state relative-caret-position="1288">
+          <caret line="56" column="19" lean-forward="false" selection-start-line="56" selection-start-column="19" selection-end-line="56" selection-end-column="19" />
           <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/product/index/index.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="631">
-          <caret line="126" column="28" lean-forward="true" selection-start-line="126" selection-start-column="28" selection-end-line="126" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#51#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/product/save-update/index.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="907">
-          <caret line="182" column="21" lean-forward="true" selection-start-line="182" selection-start-column="21" selection-end-line="182" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/product/save-update/rich-text-editor.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5">
-          <caret line="4" column="37" lean-forward="true" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#0#39#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -752,31 +651,129 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/user/index.jsx">
+    <entry file="file://$PROJECT_DIR$/src/pages/product/detail/index.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="16" lean-forward="false" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+        <state relative-caret-position="874">
+          <caret line="59" column="28" lean-forward="false" selection-start-line="59" selection-start-column="28" selection-end-line="59" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#41#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/charts/bar.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="15" lean-forward="false" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/product/detail/index.jsx">
+    <entry file="file://$PROJECT_DIR$/src/pages/charts/pie.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1206">
-          <caret line="59" column="28" lean-forward="true" selection-start-line="59" selection-start-column="28" selection-end-line="59" selection-end-column="28" />
+        <state relative-caret-position="138">
+          <caret line="6" column="15" lean-forward="false" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/user/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="50" lean-forward="false" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
           <folding>
-            <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#0#47#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/product/save-update/pictures-wall.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-387">
-          <caret line="37" column="52" lean-forward="true" selection-start-line="37" selection-start-column="52" selection-end-line="37" selection-end-column="52" />
+        <state relative-caret-position="644">
+          <caret line="37" column="52" lean-forward="false" selection-start-line="37" selection-start-column="52" selection-end-line="37" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/product/save-update/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="128" column="170" lean-forward="false" selection-start-line="128" selection-start-column="170" selection-end-line="128" selection-end-column="170" />
+          <folding>
+            <element signature="e#0#41#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/charts/line.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="16" lean-forward="false" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/product/save-update/rich-text-editor.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="37" lean-forward="false" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#26#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/product/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="5" lean-forward="false" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#41#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/product/index/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#51#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/role/update-role-form.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1449">
+          <caret line="63" column="30" lean-forward="false" selection-start-line="63" selection-start-column="30" selection-end-line="63" selection-end-column="30" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/role/add-role-form.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="5" column="14" lean-forward="true" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/role/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="45" lean-forward="false" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/api/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="548">
+          <caret line="37" column="101" lean-forward="true" selection-start-line="37" selection-start-column="101" selection-end-line="37" selection-end-column="101" />
+          <folding />
         </state>
       </provider>
     </entry>

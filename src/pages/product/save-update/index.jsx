@@ -126,7 +126,7 @@ class SaveUpdate extends Component{
 
         return (
             <Card
-                title={<div className="save-update-title" onClick={this.goBack}><Icon className="save-update-icon" type="arrow-left"/>&nbsp;&nbsp;<span>添加商品</span></div>}
+                title={<div className="save-update-title" onClick={this.goBack}><Icon className="save-update-icon" type="arrow-left"/>&nbsp;&nbsp;<span>修改商品</span></div>}
             >
                 <Form {...this.formItemLayout} onSubmit={this.submit}>
                     <Item label="商品名称">
