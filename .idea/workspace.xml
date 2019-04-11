@@ -1,20 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="afd5a697-4ad5-420f-8e9e-800dc8c3ad04" name="默认的" comment="完成商品管理模块">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/pages/role/add-role-form.jsx" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/pages/role/update-role-form.jsx" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/pages/user/add-user-form.jsx" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/pages/user/update-user-form.jsx" />
+    <list default="true" id="afd5a697-4ad5-420f-8e9e-800dc8c3ad04" name="默认的" comment="完成权限管理和用户管理">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change beforePath="$PROJECT_DIR$/src/api/index.js" afterPath="$PROJECT_DIR$/src/api/index.js" />
       <change beforePath="$PROJECT_DIR$/src/pages/charts/bar.jsx" afterPath="$PROJECT_DIR$/src/pages/charts/bar.jsx" />
       <change beforePath="$PROJECT_DIR$/src/pages/charts/line.jsx" afterPath="$PROJECT_DIR$/src/pages/charts/line.jsx" />
       <change beforePath="$PROJECT_DIR$/src/pages/charts/pie.jsx" afterPath="$PROJECT_DIR$/src/pages/charts/pie.jsx" />
-      <change beforePath="$PROJECT_DIR$/src/pages/product/save-update/index.jsx" afterPath="$PROJECT_DIR$/src/pages/product/save-update/index.jsx" />
-      <change beforePath="$PROJECT_DIR$/src/pages/role/index.jsx" afterPath="$PROJECT_DIR$/src/pages/role/index.jsx" />
-      <change beforePath="$PROJECT_DIR$/src/pages/user/index.jsx" afterPath="$PROJECT_DIR$/src/pages/user/index.jsx" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" afterPath="$PROJECT_DIR$/yarn.lock" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -29,21 +21,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/api/index.js">
+      <file leaf-file-name="pie.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/charts/pie.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="548">
-              <caret line="37" column="101" lean-forward="true" selection-start-line="37" selection-start-column="101" selection-end-line="37" selection-end-column="101" />
-              <folding />
+            <state relative-caret-position="-69">
+              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/role/index.jsx">
+      <file leaf-file-name="bar.jsx" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/pages/charts/bar.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="6" column="45" lean-forward="false" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="45" />
+            <state relative-caret-position="437">
+              <caret line="19" column="6" lean-forward="true" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="line.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/charts/line.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="18" column="10" lean-forward="false" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -79,8 +85,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/pages/admin/index.less" />
-        <option value="$PROJECT_DIR$/src/pages/login/index.less" />
         <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/pages/login/index.jsx" />
         <option value="$PROJECT_DIR$/src/App.jsx" />
@@ -123,13 +127,15 @@
         <option value="$PROJECT_DIR$/src/pages/user/index.jsx" />
         <option value="$PROJECT_DIR$/src/pages/user/update-user-form.jsx" />
         <option value="$PROJECT_DIR$/src/pages/product/save-update/index.jsx" />
-        <option value="$PROJECT_DIR$/src/pages/charts/bar.jsx" />
-        <option value="$PROJECT_DIR$/src/pages/charts/line.jsx" />
-        <option value="$PROJECT_DIR$/src/pages/charts/pie.jsx" />
         <option value="$PROJECT_DIR$/src/pages/role/add-role-form.jsx" />
         <option value="$PROJECT_DIR$/src/pages/role/index.jsx" />
         <option value="$PROJECT_DIR$/src/pages/role/update-role-form.jsx" />
         <option value="$PROJECT_DIR$/src/api/index.js" />
+        <option value="$PROJECT_DIR$/src/pages/charts/index.jsx" />
+        <option value="$PROJECT_DIR$/src/pages/charts/lazy-bar.jsx" />
+        <option value="$PROJECT_DIR$/src/pages/charts/line.jsx" />
+        <option value="$PROJECT_DIR$/src/pages/charts/pie.jsx" />
+        <option value="$PROJECT_DIR$/src/pages/charts/bar.jsx" />
       </list>
     </option>
   </component>
@@ -163,8 +169,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="396" />
-    <option name="y" value="55" />
+    <option name="x" value="489" />
+    <option name="y" value="60" />
     <option name="width" value="1497" />
     <option name="height" value="1031" />
   </component>
@@ -212,7 +218,7 @@
               <item name="react-admin" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="role" type="462c0819:PsiDirectoryNode" />
+              <item name="charts" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -298,7 +304,7 @@
       <workItem from="1554683300853" duration="42537000" />
       <workItem from="1554889189151" duration="2421000" />
       <workItem from="1554894098243" duration="59000" />
-      <workItem from="1554894945248" duration="20813000" />
+      <workItem from="1554894945248" duration="22878000" />
     </task>
     <task id="LOCAL-00001" summary="实现品类管理组件">
       <created>1554721863030</created>
@@ -321,11 +327,18 @@
       <option name="project" value="LOCAL" />
       <updated>1554965013914</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="完成权限管理和用户管理">
+      <created>1554972884062</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1554972884062</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="145604000" />
+    <option name="totallyTimeSpent" value="147669000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -340,7 +353,7 @@
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17653278" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23018607" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291592" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5056657" sideWeight="0.5006605" order="13" side_tool="true" content_ui="tabs" />
@@ -348,7 +361,7 @@
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.4993395" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13137034" sideWeight="0.4993395" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -398,7 +411,8 @@
     <MESSAGE value="实现品类管理组件" />
     <MESSAGE value="实现商品管理中的添加商品功能" />
     <MESSAGE value="完成商品管理模块" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成商品管理模块" />
+    <MESSAGE value="完成权限管理和用户管理" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成权限管理和用户管理" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -407,14 +421,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/node_modules/react/cjs/react.development.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="1838" column="2" lean-forward="false" selection-start-line="1838" selection-start-column="2" selection-end-line="1838" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/admin/dgg.jsx" />
     <entry file="file://$PROJECT_DIR$/src/pages/admin/aaaa.jszx.jsx" />
     <entry file="file://$PROJECT_DIR$/node_modules/@types/react/index.d.ts">
       <provider selected="true" editor-type-id="text-editor">
@@ -423,7 +429,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/charts/index.jsx" />
     <entry file="file://$PROJECT_DIR$/node_modules/jsonp/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1311">
@@ -623,16 +628,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/user/add-user-form.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="53" column="26" lean-forward="true" selection-start-line="53" selection-start-column="26" selection-end-line="53" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#41#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/user/update-user-form.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1288">
@@ -661,28 +656,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/charts/bar.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="15" lean-forward="false" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/charts/pie.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="15" lean-forward="false" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/user/index.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
           <caret line="6" column="50" lean-forward="false" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
           <folding>
-            <element signature="e#0#47#0" expanded="true" />
+            <element signature="e#0#47#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -702,14 +681,6 @@
           <folding>
             <element signature="e#0#41#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/charts/line.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="16" lean-forward="false" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -748,7 +719,7 @@
         <state relative-caret-position="1449">
           <caret line="63" column="30" lean-forward="false" selection-start-line="63" selection-start-column="30" selection-end-line="63" selection-end-column="30" />
           <folding>
-            <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#0#41#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -771,9 +742,69 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/api/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="548">
+        <state relative-caret-position="410">
           <caret line="37" column="101" lean-forward="true" selection-start-line="37" selection-start-column="101" selection-end-line="37" selection-end-column="101" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/user/add-user-form.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="53" column="26" lean-forward="true" selection-start-line="53" selection-start-column="26" selection-end-line="53" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/charts/lazy-bar">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/charts/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="29" lean-forward="true" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/charts/lazy-bar.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/charts/line.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="18" column="10" lean-forward="false" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/charts/pie.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-69">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/charts/bar.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="19" column="6" lean-forward="true" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
